@@ -1,7 +1,6 @@
 site_name: Human Interface Guidelines
 # Temporary location, using GitHub Pages.
-site_url: >
-  https://julianeisel.github.io/Blender-HIG/
+site_url: https://julianeisel.github.io/Blender-HIG/
 copyright: >
   &copy; Copyright: This page is licensed under a CC-BY-SA 4.0 Int. License.
 
