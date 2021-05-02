@@ -1,12 +1,12 @@
 # License
 
 Blender itself is released under the [GNU General Public
-License](http://www.gnu.org/licenses/gpl.html>); More info
+License](http://www.gnu.org/licenses/gpl.html); More info
 [blender.org/about/license](https://www.blender.org/about/license/).
 
 Except where otherwise noted, the content of the Blender Manual is available
 under a [Creative Commons Attribution-ShareAlike 4.0 International
-License](https://creativecommons.org/licenses/by-sa/4.0/>) or any later version.
+License](https://creativecommons.org/licenses/by-sa/4.0/) or any later version.
 Excluded from the {{info.license_str}} are also the used logos, trademarks,
 icons, source code and Python scripts.
 
