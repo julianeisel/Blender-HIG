@@ -6,7 +6,7 @@ hide:
 
 # Blender Human Interface Guidelines
 
-!!! attention "Not an Offician Site"
+!!! attention "Not an Official Site"
     No content on any of the pages here are official. This is just a setup for experimental purposes.
 
 <!-- In the attention header for now. -->
