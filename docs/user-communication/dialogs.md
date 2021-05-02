@@ -11,7 +11,7 @@ Modal dialogs are popups that interrupt the user's work and _require_ the user t
 !!! example
     * Auto-saves and _Recover Last Session_ can be used to prevent data-loss when users accidentally closed Blender without saving, ignoring the confirmation prompt.
     * When a user overrides files in Blender's File Browser, the overridden files are moved to the system trash by default, despite the confirmation prompt _(Note: Not actually the case at the time of writing)_.
-* If there is no such secondary way to recover from errors, a modal dialog must not have a default action (the action that happens when pressing {{shortcut|Enter}}, typically visualized by a button with a blue background).
+* If there is no such secondary way to recover from errors, a modal dialog must not have a default action (the action that happens when pressing shortcut|Enter, typically visualized by a button with a blue background).
 
 ## References
 

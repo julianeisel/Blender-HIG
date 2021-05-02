@@ -1,4 +1,6 @@
 site_name: Human Interface Guidelines
+copyright: >
+  &copy; Copyright: This page is licensed under a CC-BY-SA 4.0 Int. License.
 
 theme:
   name: material
@@ -17,6 +19,11 @@ theme:
     - navigation.tabs
     - navigation.top
 
+# Custom variables.
+extra:
+  info:
+    license_str: "CC-BY-SA 4.0 Int."
+
 extra_css:
   # Our own theme settings.
   - assets/stylesheets/extra.css
@@ -27,20 +34,24 @@ extra_javascript:
 markdown_extensions:
   # "Call-outs": Boxes for notes, warnings, summaries, etc.
   - admonition
+  # Abbreviations.
+  - abbr
   # Code blocks with highlighting.
   - pymdownx.highlight
   # Collapsible "call-outs".
   - pymdownx.details
   # Nesting of code and content blocks inside "call-outs".
   - pymdownx.superfences
+  # Allows "including" contents from other files (e.g. for common abbreviations).
+  - pymdownx.snippets
   # Metadata extension to support "front matter", i.e. setting properties per site (like hiding ToC).
   - meta
   - toc:
       # Permanent section links ("anchors"). Appear on hover.
       permalink: ⚓︎
 
-# plugins:
-#   - macros
+plugins:
+  - macros
 
 # Main site navigation tree.
 nav:
