@@ -1,0 +1,7 @@
+# Build Files.
+/site
+
+# IDE specific files
+.idea/
+.vscode/
+*.sw*

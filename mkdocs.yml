@@ -1,0 +1,70 @@
+site_name: Human Interface Guidelines
+
+theme:
+  name: material
+  # Theme extensions.
+  custom_dir: overrides
+  logo: assets/blender_logo.png
+  favicon: assets/blender_favicon.png
+  language: en
+  palette:
+    scheme: blender_light
+    accent: blue
+  features:
+    # Don't reload the entire site when changing pages. (Material for MkDocs only.)
+    - navigation.instant
+    # Main horizontal navigation tabs.
+    - navigation.tabs
+    - navigation.top
+
+extra_css:
+  # Our own theme settings.
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/extra.js
+
+markdown_extensions:
+  # "Call-outs": Boxes for notes, warnings, summaries, etc.
+  - admonition
+  # Code blocks with highlighting.
+  - pymdownx.highlight
+  # Collapsible "call-outs".
+  - pymdownx.details
+  # Nesting of code and content blocks inside "call-outs".
+  - pymdownx.superfences
+  # Metadata extension to support "front matter", i.e. setting properties per site (like hiding ToC).
+  - meta
+  - toc:
+      # Permanent section links ("anchors"). Appear on hover.
+      permalink: ⚓︎
+
+# plugins:
+#   - macros
+
+# Main site navigation tree.
+nav:
+  - Home: index.md
+  - Guidelines:
+    - Design Philosophy:
+      - design-philosophy/why-design-philosophy-matters.md
+      - design-philosophy/paradigms.md
+    - Process:
+      - process/index.md
+      - process/user-centered-design.md
+    - Architecture:
+      - architecture/hierarchy.md
+      - architecture/layouts.md
+    - User Communication:
+      - user-communication/writing-style.md
+      - user-communication/dialogs.md
+    - Components:
+      - components/sidebar-tabs.md
+    - Visual Design:
+      - visual-design/icons.md
+      - visual-design/dark-theme.md
+      - visual-design/light-theme.md
+    - glossary.md
+  - About:
+    - about/contribute.md
+    - about/license.md
