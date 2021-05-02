@@ -36,7 +36,8 @@ markdown_extensions:
   - admonition
   # Abbreviations.
   - abbr
-  # Custom attributs for headers, e.g. achors (`# Foo Bar {#foo-bar}`). Together with def_list also works for definitions.
+  # Custom attributs for headers, e.g. achors (`# Foo Bar { #foo-bar }`).
+  # Together with def_list also works for definitions.
   - attr_list
   # Definition lists.
   - def_list
@@ -46,12 +47,17 @@ markdown_extensions:
   - pymdownx.details
   # Shortcut displaying (e.g ++shift+enter++)
   - pymdownx.keys
+  # Tabbed boxes
+  - pymdownx.tabbed
   # Nesting of code and content blocks inside "call-outs".
   - pymdownx.superfences
   # Allows "including" contents from other files (e.g. for common abbreviations).
   - pymdownx.snippets
   # Metadata extension to support "front matter", i.e. setting properties per site (like hiding ToC).
   - meta
+  # Checkbox lists.
+  - pymdownx.tasklist:
+      custom_checkbox: false
   - toc:
       # Permanent section links ("anchors"). Appear on hover.
       permalink: ⚓︎
