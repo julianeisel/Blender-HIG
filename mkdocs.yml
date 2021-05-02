@@ -1,4 +1,7 @@
 site_name: Human Interface Guidelines
+# Temporary location, using GitHub Pages.
+site_url: >
+  https://julianeisel.github.io/Blender-HIG/
 copyright: >
   &copy; Copyright: This page is licensed under a CC-BY-SA 4.0 Int. License.
 
@@ -14,8 +17,8 @@ theme:
     accent: blue
   features:
     # Don't reload the entire site when changing pages. (Material for MkDocs
-    # only.)
-    - navigation.instant
+    # only.) -- Doesn't work with Disqus it seems.
+    # - navigation.instant
     # Main horizontal navigation tabs.
     - navigation.tabs
     - navigation.top
@@ -24,6 +27,7 @@ theme:
 extra:
   info:
     license_str: "CC-BY-SA 4.0 Int."
+  disqus: blender-hig
 
 extra_css:
   # Our own theme settings.
