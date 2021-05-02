@@ -1,1 +1,0 @@
-# Why Design Philosophy Matters

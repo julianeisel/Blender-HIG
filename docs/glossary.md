@@ -13,7 +13,6 @@ targeted at a different audience.
 ## General Terms
 
 _Human Interface Guidelines_, _HIG_
-
 :   !!! quote
         <small>https://en.wikipedia.org/wiki/Human_interface_guidelines</small>
 
@@ -28,7 +27,6 @@ _Human Interface Guidelines_, _HIG_
         such as dialog boxes._
 
 _User Interface_, _UI_
-
 :   !!! quote
         <small>https://en.wikipedia.org/wiki/User_interface</small>
 
@@ -39,7 +37,6 @@ _User Interface_, _UI_
         information that aids the operators’ decision-making process._
 
 _Usability_
-
 : !!! quote
         <small>ISO 9241-11:2018, sec. 3.1.1</small>
 
@@ -48,7 +45,6 @@ _Usability_
         satisfaction in a specified context of use._
 
 _User Experience_
-
 : !!! quote
         <small>ISO 9241-210:2010, sec. 2.15</small>
 
@@ -62,13 +58,11 @@ _User Experience_
     of the entire UX.
 
 _Modal_
-
 :   TODO
 
 ## Actions
 
 _Tweak Event_ { #tweak-event }
-
 :   A tweak event is sent when a mouse button was pressed and the mouse moved a
     certain minimum distance before the release event. The exact event type is
     in fact chosen based on the movement direction, allowing different

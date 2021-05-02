@@ -64,3 +64,7 @@
   --md-accent-fg-color: var(--md-default-fg-color--lighter);
   font-weight: lighter;
 }
+
+.md-typeset .task-list-item [type="checkbox"] {
+  top: 0.09rem;
+}

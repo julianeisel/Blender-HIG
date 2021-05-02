@@ -13,7 +13,8 @@ theme:
     scheme: blender_light
     accent: blue
   features:
-    # Don't reload the entire site when changing pages. (Material for MkDocs only.)
+    # Don't reload the entire site when changing pages. (Material for MkDocs
+    # only.)
     - navigation.instant
     # Main horizontal navigation tabs.
     - navigation.tabs
@@ -51,9 +52,11 @@ markdown_extensions:
   - pymdownx.tabbed
   # Nesting of code and content blocks inside "call-outs".
   - pymdownx.superfences
-  # Allows "including" contents from other files (e.g. for common abbreviations).
+  # Allows "including" contents from other files (e.g. for common
+  # abbreviations).
   - pymdownx.snippets
-  # Metadata extension to support "front matter", i.e. setting properties per site (like hiding ToC).
+  # Metadata extension to support "front matter", i.e. setting properties per
+  # site (like hiding ToC).
   - meta
   # Checkbox lists.
   - pymdownx.tasklist:
@@ -70,7 +73,7 @@ nav:
   - Home: index.md
   - Guidelines:
     - Design Philosophy:
-      - design-philosophy/why-design-philosophy-matters.md
+      - design-philosophy/why-it-matters.md
       - design-philosophy/paradigms.md
     - Process:
       - process/index.md

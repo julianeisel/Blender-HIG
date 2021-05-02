@@ -10,7 +10,7 @@ License](https://creativecommons.org/licenses/by-sa/4.0/) or any later version.
 Excluded from the {{info.license_str}} are also the used logos, trademarks,
 icons, source code and Python scripts.
 
-Please attribute the "Blender {{config.site_name}} Team" and include a hyperlink
+Please attribute the _Blender {{config.site_name}} Team_ and include a hyperlink
 (online) or URL (in print) to manual.
 
 !!! example
