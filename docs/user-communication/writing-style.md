@@ -35,7 +35,7 @@
 
 
 ## UI labels
- * Must use English MLA title case (see [this overview](https://titlecaseconverter.com/rules/#MLA), also [T79589](https://developer.blender.org/T79589)).
+ * Must use English MLA title case (see [this overview](https://titlecaseconverter.com/rules/#MLA), also {{Phab("T79589")}}.
 !!! example
     * _Like in This Example_
     * _Set Offset from Cursor_

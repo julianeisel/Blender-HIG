@@ -4,10 +4,10 @@ hide:
   - toc        # Hide table of contents
 ---
 
+# Blender Human Interface Guidelines
+
 !!! attention "Not an Offician Site"
     No content on any of the pages here are official. This is just a setup for experimental purposes.
-
-# Blender Human Interface Guidelines
 
 <!-- In the attention header for now. -->
 <!--
@@ -26,8 +26,9 @@ They should be a practical resource for contributors, including Add-on authors, 
 The term usability has special relevance to the UI team. Its ISO definition is as follows:
 
 !!! quote "Usability"
-    Extend to which a system, product or service can be used by __specified users__ to achieve __specified goals__ with effectiveness, efficiency and satisfaction in a __specified context of use__.
-    -- <cite>ISO 9241-11:2018, sec. 3.1.1</cite>
+    <small>ISO 9241-11:2018, sec. 3.1.1</small>
+
+    Extend to which a system, product or service can be used by __specified users__ to achieve __specified goals__ with effectiveness, efficiency and satisfaction in a __specified context of use__.  
 
 There is an important implication in this: To maximize effectiveness of our usability engineering process, we need a deep understanding of who uses Blender, what for and in which context. Our aim is to build the engineering process around this implication.
 

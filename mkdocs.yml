@@ -36,10 +36,16 @@ markdown_extensions:
   - admonition
   # Abbreviations.
   - abbr
+  # Custom attributs for headers, e.g. achors (`# Foo Bar {#foo-bar}`). Together with def_list also works for definitions.
+  - attr_list
+  # Definition lists.
+  - def_list
   # Code blocks with highlighting.
   - pymdownx.highlight
   # Collapsible "call-outs".
   - pymdownx.details
+  # Shortcut displaying (e.g ++shift+enter++)
+  - pymdownx.keys
   # Nesting of code and content blocks inside "call-outs".
   - pymdownx.superfences
   # Allows "including" contents from other files (e.g. for common abbreviations).
