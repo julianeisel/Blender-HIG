@@ -16,7 +16,7 @@
         ??? info "Rationale"
             _Why are entity names no titles?_
 
-    It is often hard to decide if something is an entity name. This guideline is definitely arguable, but avoids many fuzzy cases.
+            It is often hard to decide if something is an entity name. This guideline is definitely arguable, but avoids many fuzzy cases.
  <!-- * Entities (like data-blocks) should be title cased, even in tooltips. However, this is a fuzzy rule; it's not always clear if something is an entity, so it's better not to use such emphasis if you are unsure.
     * Terms like Object, Point Cloud, Workspace -->
  * “Channel" identifiers, like _X_, _Y_, _Z_, _R_, _G_, _B_, etc. are always capitalized.
