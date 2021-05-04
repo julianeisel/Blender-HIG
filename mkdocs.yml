@@ -45,6 +45,7 @@ markdown_extensions:
   - attr_list
   # Definition lists.
   - def_list
+  - footnotes
   # Code blocks with highlighting.
   - pymdownx.highlight
   # Collapsible "call-outs".
@@ -77,6 +78,7 @@ nav:
   - Guidelines:
     - Design Philosophy:
       - Why it Matters: design-philosophy/why-it-matters.md
+      - design-philosophy/values.md
       - design-philosophy/paradigms.md
     - Process:
       - process/index.md
