@@ -1,0 +1,70 @@
+/* Disable the announcement header for development, it's annoying. */
+[data-md-is-localhost="true"] .md-announce {
+  display: none;
+}
+
+.md-header .md-logo img {
+  height: 1.6rem;
+}
+.md-logo img {
+  width: auto !important;
+}
+
+[data-md-color-scheme="blender_light"] {
+  --md-primary-fg-color:         #424246;
+  --md-primary-fg-color--light:  #A8A8AC;
+  --md-primary-fg-color--lighter:  #f5f5f5;
+  /* --md-primary-fg-color--dark:   #272729; */
+
+  --md-default-fg-color--lighter: rgba(0, 0, 0, .25);
+
+  --md-footer-bg-color:          var(--md-primary-fg-color--lighter);
+  --md-footer-bg-color--dark:    var(--md-primary-fg-color--lighter);
+  --md-footer-fg-color:          #424246;
+  --md-footer-fg-color--light:   var(--md-default-fg-color--light);
+  --md-footer-fg-color--lighter: #272729;
+}
+
+[data-md-color-scheme="blender_light"] .md-content a {
+  color:           var(--md-accent-fg-color);
+}
+
+/* Slight drop-shadow to elevate the header from md-dabs. */
+[data-md-color-scheme="blender_light"] .md-header {
+  box-shadow: 0 0 .1rem rgba(97, 90, 90, 0.05),0 .2rem .25rem rgba(0,0,0,.1);
+}
+/* Bigger drop-shadow when the header is on top of md-content and the md-tabs is hidden. */
+.md-header[data-md-state="shadow"] {
+  box-shadow: 0 0 .2rem rgba(97, 90, 90, 0.1), 0 .2rem .4rem rgba(0,0,0,.2);
+}
+
+/* Slight drop-shadow to elevate the header from the content too. */
+[data-md-color-scheme="blender_light"] .md-tabs {
+  --md-primary-fg-color: var(--md-footer-bg-color);
+  --md-primary-bg-color: var(--md-footer-fg-color);
+  box-shadow: 0 0 .05rem rgba(97, 90, 90, 0.1), 0 .2rem .1rem rgba(0,0,0,.01);
+}
+
+[data-md-color-scheme="blender_light"] .md-tabs__item {
+  /* height: 1.2rem; */
+  height: 2rem;
+}
+
+[data-md-color-scheme="blender_light"] .md-tabs__link {
+  /* margin-top: 0rem; */
+  margin-top: 0.6rem;
+}
+
+[data-md-color-scheme="blender_light"] .md-top {
+  background: var(--md-primary-fg-color--lighter);
+  color: var(--md-primary-fg-color);
+}
+
+[data-md-color-scheme="blender_light"] .md-typeset .headerlink {
+  --md-accent-fg-color: var(--md-default-fg-color--lighter);
+  font-weight: lighter;
+}
+
+.md-typeset .task-list-item [type="checkbox"] {
+  top: 0.09rem;
+}

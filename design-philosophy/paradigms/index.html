@@ -1,0 +1,999 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://julianeisel.github.io/Blender-HIG/design-philosophy/paradigms/">
+      
+      <link rel="icon" href="../../assets/blender_favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.1.3">
+    
+    
+      
+        <title>Paradigms - Human Interface Guidelines</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e35208c4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ef6f36e2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="blender_light" data-md-color-primary="" data-md-color-accent="blue">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#paradigms" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+            
+<div class="admonition attention">
+    <p class="admonition-title">Work in Progress</p>
+    <p>
+        The Blender Human Interface Guidelines are currently in early development. There is no claim of completeness at
+        all.
+    </p>
+</div>
+
+          </div>
+        </aside>
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Human Interface Guidelines" class="md-header__button md-logo" aria-label="Human Interface Guidelines" data-md-component="logo">
+      
+  <img src="../../assets/blender_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Human Interface Guidelines
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Paradigms
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../why-it-matters/" class="md-tabs__link md-tabs__link--active">
+        Guidelines
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/contribute/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Human Interface Guidelines" class="md-nav__button md-logo" aria-label="Human Interface Guidelines" data-md-component="logo">
+      
+  <img src="../../assets/blender_logo.png" alt="logo">
+
+    </a>
+    Human Interface Guidelines
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      <label class="md-nav__link" for="__nav_2">
+        Guidelines
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Guidelines" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Guidelines
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+      
+      <label class="md-nav__link" for="__nav_2_1">
+        Design Philosophy
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Design Philosophy" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Design Philosophy
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../why-it-matters/" class="md-nav__link">
+        Why it Matters
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../values/" class="md-nav__link">
+        Values
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Paradigms
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Paradigms
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#non-overlapping" class="md-nav__link">
+    Non Overlapping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#non-blocking" class="md-nav__link">
+    Non Blocking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#non-modal" class="md-nav__link">
+    Non Modal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#select-operate" class="md-nav__link">
+    Select -&gt; Operate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operate-settings" class="md-nav__link">
+    Operate -&gt; Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#separated-data-properties-from-tools" class="md-nav__link">
+    Separated Data Properties from Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-free" class="md-nav__link">
+    Installation Free
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blender-is-for-artists" class="md-nav__link">
+    Blender is for Artists
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      <label class="md-nav__link" for="__nav_2_2">
+        Process
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Process" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Process
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../process/" class="md-nav__link">
+        General
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../process/user-centered-design/" class="md-nav__link">
+        User-Centered Design
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      <label class="md-nav__link" for="__nav_2_3">
+        Architecture
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Architecture" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Architecture
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/hierarchy/" class="md-nav__link">
+        Hierarchy
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../architecture/layouts/" class="md-nav__link">
+        Layouts
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      <label class="md-nav__link" for="__nav_2_4">
+        User Communication
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="User Communication" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          User Communication
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-communication/writing-style/" class="md-nav__link">
+        Writing style
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-communication/dialogs/" class="md-nav__link">
+        Dialogs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      <label class="md-nav__link" for="__nav_2_5">
+        Components
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Components" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Components
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../components/sidebar-tabs/" class="md-nav__link">
+        Sidebar Tabs
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      <label class="md-nav__link" for="__nav_2_6">
+        Visual Design
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Visual Design" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Visual Design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visual-design/icons/" class="md-nav__link">
+        Icons
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visual-design/dark-theme/" class="md-nav__link">
+        Dark Theme
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../visual-design/light-theme/" class="md-nav__link">
+        Light Theme
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        Glossary
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      <label class="md-nav__link" for="__nav_3">
+        About
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/contribute/" class="md-nav__link">
+        Contribute
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/license/" class="md-nav__link">
+        License
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#non-overlapping" class="md-nav__link">
+    Non Overlapping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#non-blocking" class="md-nav__link">
+    Non Blocking
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#non-modal" class="md-nav__link">
+    Non Modal
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#select-operate" class="md-nav__link">
+    Select -&gt; Operate
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#operate-settings" class="md-nav__link">
+    Operate -&gt; Settings
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#separated-data-properties-from-tools" class="md-nav__link">
+    Separated Data Properties from Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-free" class="md-nav__link">
+    Installation Free
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blender-is-for-artists" class="md-nav__link">
+    Blender is for Artists
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="paradigms">Paradigms<a class="headerlink" href="#paradigms" title="Permanent link">⚓︎</a></h1>
+<h2 id="non-overlapping">Non Overlapping<a class="headerlink" href="#non-overlapping" title="Permanent link">⚓︎</a></h2>
+<p>The UI should enable you to view all relevant options and tools at a glance,
+without the need for pushing or dragging windows around. For that reason we
+default to a subdivided window layout. Blender's subdivision works on three
+levels;</p>
+<ol>
+<li>Screens; the entire window enables you to configure workspaces using multiple
+editors.</li>
+<li>Areas; the container of an editor. Editors can each operate similar to a
+stand alone editor, like for modeling, painting or scripting. Editors can both
+follow Screen level user context (<em>Active</em> or <em>Selected</em>) and offer local
+context browsing.</li>
+<li>Regions; every editor allows further subdivision to provide button/menu
+headers, toolbars, channel views, and what more is needed to serve its
+functionality.</li>
+</ol>
+<p>Blender allows to configure multiple windows/screens too, which will be useful
+especially for multi-screen setups, animated windows, showing render output or
+for some individual cases when an overlap does provide added benefit.</p>
+<h2 id="non-blocking">Non Blocking<a class="headerlink" href="#non-blocking" title="Permanent link">⚓︎</a></h2>
+<p>Tools and interface options are being designed to not block the user from using
+any other parts of Blender. Blender doesn't pop up requesters that require the
+user to fill in data before things execute. The UI should stay responsive by all
+means, at least for the common and most used operations. When things
+exceptionally do block (while rendering or simulations) it should be clearly
+indicated and allow an immediate exit.</p>
+<h2 id="non-modal">Non Modal<a class="headerlink" href="#non-modal" title="Permanent link">⚓︎</a></h2>
+<p>User input should remain as consistent and predictable as possible, not changing
+commonly used methods (mouse, keyboard) on the fly. Blender's complexity does
+allow some inevitable modes though;</p>
+<ol>
+<li>Editing modes, like mesh modeling, armature posing, particle hair combing, 3D
+texture paint. These now are per-object states though, and not editor dependent
+or global.</li>
+<li>Sticky modes, which remain active without user input. Currently this is only
+used for the transform tools, to allow more precise and variable inputs
+possible.</li>
+</ol>
+<p>All other modes should be default "Temporary" modes, immediately ending the
+operation when a user stops with actions (like view rotate). This also implies
+that input methods like for polygonal knife cuts should only stick to inputting
+polygon points when the user actively does something, like holding a modifier
+key.</p>
+<h2 id="select-operate">Select -&gt; Operate<a class="headerlink" href="#select-operate" title="Permanent link">⚓︎</a></h2>
+<p>In Blender you first indicate which data you work on, and then what you want to
+do. This follows the non-modal principle; there's no active tool mode you need
+to set first to be able to use the tool on what you select after. This concept
+enables a fast and flexible work flow.</p>
+<h2 id="operate-settings">Operate -&gt; Settings<a class="headerlink" href="#operate-settings" title="Permanent link">⚓︎</a></h2>
+<p>Blender's new 'Operator' system allows tools to be adjusted after you've used
+them. This prevents annoying popups forcing you to decide settings before you
+even know how they'd look like.</p>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p><em>Add Primitive UV Sphere</em> adds a sphere immediately with previously used
+settings, the toolbar shows which choices you have and redoes the operation
+immediately on changing values.</p>
+</div>
+<p>We will extend this method to all tools, also the more complex ones. Obviously,
+in cases where tools heavily depend on Temporary Modes like painting, the tool
+settings should be available to adjust before the tool gets used. Also in this
+case you will be able to redo the last action with different settings freely.</p>
+<h2 id="separated-data-properties-from-tools">Separated Data Properties from Tools<a class="headerlink" href="#separated-data-properties-from-tools" title="Permanent link">⚓︎</a></h2>
+<p>Button windows are now separated in either Property lists/bars or Tool
+lists/bars. In this case "Tools" is defined to operate on Screen-wide or
+Editor-wide context (selections, activated items). Button views that show
+properties will still get the options to edit the data itself, like remove, copy
+or add ("operators" too).</p>
+<h2 id="installation-free">Installation Free<a class="headerlink" href="#installation-free" title="Permanent link">⚓︎</a></h2>
+<p>Blender should run "out of the box" for a new install, not requiring root access
+to the system either.</p>
+<h2 id="blender-is-for-artists">Blender is for Artists<a class="headerlink" href="#blender-is-for-artists" title="Permanent link">⚓︎</a></h2>
+<p>Blender is a tool allowing artists to create content, and not a coders API!
+That's quite obvious, but it provides emphasis on functionality for things that
+first-most <em>work</em> and improve the creation process.<br />
+Of course Blender should be very flexible to configure and extend to serve many
+workflow issues, for that high-end and accessible (scripting) APIs have to be
+available.</p>
+                
+              
+              
+                
+
+
+  <h2 id="__comments">Comments</h2>
+  <div id="disqus_thread"></div>
+  <script>var disqus_config=function(){this.page.url="https://julianeisel.github.io/Blender-HIG/design-philosophy/paradigms/",this.page.identifier="design-philosophy/paradigms/"};window.addEventListener("load",function(){var e=document,i=e.createElement("script");i.src="//blender-hig.disqus.com/embed.js",i.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(i)})</script>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../values/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Values
+            </div>
+          </div>
+        </a>
+      
+      
+        <a href="../../process/" class="md-footer__link md-footer__link--next" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              General
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            &copy; Copyright: This page is licensed under a CC-BY-SA 4.0 Int. License.
+
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.4ea5477f.min.js"></script>
+      
+        <script src="../../assets/javascripts/extra.js"></script>
+      
+    
+  </body>
+</html>
