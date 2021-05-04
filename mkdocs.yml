@@ -76,7 +76,7 @@ nav:
   - Home: index.md
   - Guidelines:
     - Design Philosophy:
-      - design-philosophy/why-it-matters.md
+      - Why it Matters: design-philosophy/why-it-matters.md
       - design-philosophy/paradigms.md
     - Process:
       - process/index.md

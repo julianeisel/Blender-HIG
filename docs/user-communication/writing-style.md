@@ -56,7 +56,7 @@
 
 
 ## UI labels
-* Must use English MLA title case (see [this
+* Must use English _MLA_ title case (see [this
   overview](https://titlecaseconverter.com/rules/#MLA), also
   {{Phab("T79589")}}).
 

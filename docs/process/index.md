@@ -11,9 +11,9 @@ Most points here are good practice for other areas as well.
   The UI project should link to it in the navigation menu and the roadmap. Make
   sure the project visibility is set to _Public (No Login Required)_.
 * When committing a change, link to all design tasks and patches in the commit
-  description. __For every change the rationales should be explicit__ or at
-  least easy to reach via the commit description, no matter how obvious they
-  seem to be.
+  description. __For every design change the rationales should be mentioned
+  explicitly__, no matter how obvious they may seem. At the very least they
+  should be linked to.
 * Immediately after committing and pushing a change, add it to the [release
   notes](https://wiki.blender.org/wiki/Reference/Release_Notes) if needed.  
   For bigger changes this should already be prepared prior to pushing.

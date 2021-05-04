@@ -1,3 +1,8 @@
+---
+# Disable comment section.
+disqus: ""
+---
+
 # License
 
 Blender itself is released under the [GNU General Public
